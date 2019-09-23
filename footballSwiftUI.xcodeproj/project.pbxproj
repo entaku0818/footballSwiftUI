@@ -10,11 +10,20 @@
 		AE8D41A6233714F000F189AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41A5233714F000F189AD /* AppDelegate.swift */; };
 		AE8D41A8233714F000F189AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41A7233714F000F189AD /* SceneDelegate.swift */; };
 		AE8D41AB233714F000F189AD /* footballSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41A9233714F000F189AD /* footballSwiftUI.xcdatamodeld */; };
-		AE8D41AD233714F000F189AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41AC233714F000F189AD /* ContentView.swift */; };
+		AE8D41AD233714F000F189AD /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41AC233714F000F189AD /* LandmarkDetail.swift */; };
 		AE8D41AF233714F100F189AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8D41AE233714F100F189AD /* Assets.xcassets */; };
 		AE8D41B2233714F100F189AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8D41B1233714F100F189AD /* Preview Assets.xcassets */; };
 		AE8D41B5233714F100F189AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8D41B3233714F100F189AD /* LaunchScreen.storyboard */; };
 		AE8D41C0233714F100F189AD /* footballSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41BF233714F100F189AD /* footballSwiftUITests.swift */; };
+		AE8D41CB2337198B00F189AD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41CA2337198B00F189AD /* MapView.swift */; };
+		AE8D41CD23371E5200F189AD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41CC23371E5200F189AD /* CircleImage.swift */; };
+		AE8D41D02337201F00F189AD /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41CF2337201F00F189AD /* Team.swift */; };
+		AE8D41D3233720BA00F189AD /* teamData.json in Resources */ = {isa = PBXBuildFile; fileRef = AE8D41D2233720BA00F189AD /* teamData.json */; };
+		AE8D41D52337238C00F189AD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41D42337238C00F189AD /* Data.swift */; };
+		AE8D41D7233723DB00F189AD /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41D6233723DB00F189AD /* LandmarkRow.swift */; };
+		AE96DAA02337E7ED00FE5622 /* TeamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE96DA9F2337E7ED00FE5622 /* TeamList.swift */; };
+		AE96DAA22338943A00FE5622 /* Liverpool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE96DAA12338943A00FE5622 /* Liverpool.jpg */; };
+		AE96DAA62338CE5E00FE5622 /* Arsenal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE96DAA52338CE5E00FE5622 /* Arsenal.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +41,7 @@
 		AE8D41A5233714F000F189AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE8D41A7233714F000F189AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AE8D41AA233714F000F189AD /* footballSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = footballSwiftUI.xcdatamodel; sourceTree = "<group>"; };
-		AE8D41AC233714F000F189AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE8D41AC233714F000F189AD /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		AE8D41AE233714F100F189AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE8D41B1233714F100F189AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AE8D41B4233714F100F189AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +49,15 @@
 		AE8D41BB233714F100F189AD /* footballSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = footballSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8D41BF233714F100F189AD /* footballSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footballSwiftUITests.swift; sourceTree = "<group>"; };
 		AE8D41C1233714F100F189AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8D41CA2337198B00F189AD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AE8D41CC23371E5200F189AD /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		AE8D41CF2337201F00F189AD /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		AE8D41D2233720BA00F189AD /* teamData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teamData.json; sourceTree = "<group>"; };
+		AE8D41D42337238C00F189AD /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		AE8D41D6233723DB00F189AD /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		AE96DA9F2337E7ED00FE5622 /* TeamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamList.swift; sourceTree = "<group>"; };
+		AE96DAA12338943A00FE5622 /* Liverpool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Liverpool.jpg; sourceTree = "<group>"; };
+		AE96DAA52338CE5E00FE5622 /* Arsenal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arsenal.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +101,16 @@
 			children = (
 				AE8D41A5233714F000F189AD /* AppDelegate.swift */,
 				AE8D41A7233714F000F189AD /* SceneDelegate.swift */,
-				AE8D41AC233714F000F189AD /* ContentView.swift */,
+				AE8D41AC233714F000F189AD /* LandmarkDetail.swift */,
+				AE8D41D6233723DB00F189AD /* LandmarkRow.swift */,
+				AE96DA9F2337E7ED00FE5622 /* TeamList.swift */,
+				AE8D41CA2337198B00F189AD /* MapView.swift */,
+				AE8D41CC23371E5200F189AD /* CircleImage.swift */,
 				AE8D41AE233714F100F189AD /* Assets.xcassets */,
+				AE8D41CE2337200C00F189AD /* Model */,
 				AE8D41B3233714F100F189AD /* LaunchScreen.storyboard */,
 				AE8D41B6233714F100F189AD /* Info.plist */,
+				AE8D41D12337205800F189AD /* Resouce */,
 				AE8D41A9233714F000F189AD /* footballSwiftUI.xcdatamodeld */,
 				AE8D41B0233714F100F189AD /* Preview Content */,
 			);
@@ -108,6 +132,25 @@
 				AE8D41C1233714F100F189AD /* Info.plist */,
 			);
 			path = footballSwiftUITests;
+			sourceTree = "<group>";
+		};
+		AE8D41CE2337200C00F189AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE8D41D42337238C00F189AD /* Data.swift */,
+				AE8D41CF2337201F00F189AD /* Team.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE8D41D12337205800F189AD /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				AE96DAA12338943A00FE5622 /* Liverpool.jpg */,
+				AE96DAA52338CE5E00FE5622 /* Arsenal.jpg */,
+				AE8D41D2233720BA00F189AD /* teamData.json */,
+			);
+			path = Resouce;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE8D41B5233714F100F189AD /* LaunchScreen.storyboard in Resources */,
+				AE8D41D3233720BA00F189AD /* teamData.json in Resources */,
 				AE8D41B2233714F100F189AD /* Preview Assets.xcassets in Resources */,
+				AE96DAA22338943A00FE5622 /* Liverpool.jpg in Resources */,
 				AE8D41AF233714F100F189AD /* Assets.xcassets in Resources */,
+				AE96DAA62338CE5E00FE5622 /* Arsenal.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,10 +257,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE8D41D02337201F00F189AD /* Team.swift in Sources */,
 				AE8D41AB233714F000F189AD /* footballSwiftUI.xcdatamodeld in Sources */,
 				AE8D41A6233714F000F189AD /* AppDelegate.swift in Sources */,
-				AE8D41AD233714F000F189AD /* ContentView.swift in Sources */,
+				AE8D41CB2337198B00F189AD /* MapView.swift in Sources */,
+				AE8D41AD233714F000F189AD /* LandmarkDetail.swift in Sources */,
 				AE8D41A8233714F000F189AD /* SceneDelegate.swift in Sources */,
+				AE8D41CD23371E5200F189AD /* CircleImage.swift in Sources */,
+				AE8D41D52337238C00F189AD /* Data.swift in Sources */,
+				AE8D41D7233723DB00F189AD /* LandmarkRow.swift in Sources */,
+				AE96DAA02337E7ED00FE5622 /* TeamList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
