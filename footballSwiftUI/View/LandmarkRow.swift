@@ -10,7 +10,7 @@ import SwiftUI
 
 struct LandmarkRow: View {
 
-    var team: Team
+    let team: Team
 
     var body: some View {
         HStack {
@@ -33,5 +33,7 @@ struct LandmarkRow_Previews: PreviewProvider {
             LandmarkRow(team: sampleTeams[1])
         }
         .previewLayout(.fixed(width: 300, height: 70))
+        
     }
 }
+

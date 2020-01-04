@@ -7,7 +7,6 @@ Helpers for loading images and data.
 
 import UIKit
 import SwiftUI
-import CoreLocation
 
 let teamData: [Team] = load("landmarkData.json")
 

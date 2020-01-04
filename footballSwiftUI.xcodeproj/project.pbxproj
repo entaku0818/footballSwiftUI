@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAC046ABA9AC591BE997B5DC /* Pods_footballSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6FBB2CE6A689766A026E3A /* Pods_footballSwiftUITests.framework */; };
 		AE8D41A6233714F000F189AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41A5233714F000F189AD /* AppDelegate.swift */; };
 		AE8D41A8233714F000F189AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41A7233714F000F189AD /* SceneDelegate.swift */; };
 		AE8D41AB233714F000F189AD /* footballSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41A9233714F000F189AD /* footballSwiftUI.xcdatamodeld */; };
-		AE8D41AD233714F000F189AD /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41AC233714F000F189AD /* LandmarkDetail.swift */; };
 		AE8D41AF233714F100F189AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8D41AE233714F100F189AD /* Assets.xcassets */; };
 		AE8D41B2233714F100F189AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8D41B1233714F100F189AD /* Preview Assets.xcassets */; };
 		AE8D41B5233714F100F189AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8D41B3233714F100F189AD /* LaunchScreen.storyboard */; };
 		AE8D41C0233714F100F189AD /* footballSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41BF233714F100F189AD /* footballSwiftUITests.swift */; };
-		AE8D41CB2337198B00F189AD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41CA2337198B00F189AD /* MapView.swift */; };
-		AE8D41CD23371E5200F189AD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41CC23371E5200F189AD /* CircleImage.swift */; };
 		AE8D41D02337201F00F189AD /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41CF2337201F00F189AD /* Team.swift */; };
 		AE8D41D3233720BA00F189AD /* teamData.json in Resources */ = {isa = PBXBuildFile; fileRef = AE8D41D2233720BA00F189AD /* teamData.json */; };
 		AE8D41D52337238C00F189AD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D41D42337238C00F189AD /* Data.swift */; };
@@ -24,6 +22,10 @@
 		AE96DAA02337E7ED00FE5622 /* TeamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE96DA9F2337E7ED00FE5622 /* TeamList.swift */; };
 		AE96DAA22338943A00FE5622 /* Liverpool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE96DAA12338943A00FE5622 /* Liverpool.jpg */; };
 		AE96DAA62338CE5E00FE5622 /* Arsenal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE96DAA52338CE5E00FE5622 /* Arsenal.jpg */; };
+		AEB8AA5723C0D614009A21E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEB8AA5623C0D614009A21E9 /* GoogleService-Info.plist */; };
+		AEB8AA5923C0DFD4009A21E9 /* Talk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB8AA5823C0DFD4009A21E9 /* Talk.swift */; };
+		AEB8AA5C23C0E9A4009A21E9 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB8AA5B23C0E9A4009A21E9 /* TeamView.swift */; };
+		F325FE0EA91F3A518F255E2A /* Pods_footballSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB32E5E782A3A08718ACA067 /* Pods_footballSwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1777101B8C77ABE9C3E9635E /* Pods-footballSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-footballSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-footballSwiftUITests/Pods-footballSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A92FF02C829B12FD99FECB8 /* Pods-footballSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-footballSwiftUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-footballSwiftUI/Pods-footballSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		685B4B99EE07AAB381C3B8DD /* Pods-footballSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-footballSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-footballSwiftUITests/Pods-footballSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		872123146F42128495E21160 /* Pods-footballSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-footballSwiftUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-footballSwiftUI/Pods-footballSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		AE8D41A2233714F000F189AD /* footballSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = footballSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8D41A5233714F000F189AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE8D41A7233714F000F189AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AE8D41AA233714F000F189AD /* footballSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = footballSwiftUI.xcdatamodel; sourceTree = "<group>"; };
-		AE8D41AC233714F000F189AD /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		AE8D41AE233714F100F189AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE8D41B1233714F100F189AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AE8D41B4233714F100F189AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,8 +54,6 @@
 		AE8D41BB233714F100F189AD /* footballSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = footballSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8D41BF233714F100F189AD /* footballSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footballSwiftUITests.swift; sourceTree = "<group>"; };
 		AE8D41C1233714F100F189AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE8D41CA2337198B00F189AD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		AE8D41CC23371E5200F189AD /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		AE8D41CF2337201F00F189AD /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		AE8D41D2233720BA00F189AD /* teamData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teamData.json; sourceTree = "<group>"; };
 		AE8D41D42337238C00F189AD /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -58,6 +61,11 @@
 		AE96DA9F2337E7ED00FE5622 /* TeamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamList.swift; sourceTree = "<group>"; };
 		AE96DAA12338943A00FE5622 /* Liverpool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Liverpool.jpg; sourceTree = "<group>"; };
 		AE96DAA52338CE5E00FE5622 /* Arsenal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arsenal.jpg; sourceTree = "<group>"; };
+		AEB8AA5623C0D614009A21E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AEB8AA5823C0DFD4009A21E9 /* Talk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Talk.swift; sourceTree = "<group>"; };
+		AEB8AA5B23C0E9A4009A21E9 /* TeamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		BF6FBB2CE6A689766A026E3A /* Pods_footballSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_footballSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB32E5E782A3A08718ACA067 /* Pods_footballSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_footballSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F325FE0EA91F3A518F255E2A /* Pods_footballSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC046ABA9AC591BE997B5DC /* Pods_footballSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +94,8 @@
 				AE8D41A4233714F000F189AD /* footballSwiftUI */,
 				AE8D41BE233714F100F189AD /* footballSwiftUITests */,
 				AE8D41A3233714F000F189AD /* Products */,
+				B65F8217361DAF3C81417F72 /* Pods */,
+				B47F32F9A61BE0223E325F7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +111,10 @@
 		AE8D41A4233714F000F189AD /* footballSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				AEB8AA5623C0D614009A21E9 /* GoogleService-Info.plist */,
 				AE8D41A5233714F000F189AD /* AppDelegate.swift */,
 				AE8D41A7233714F000F189AD /* SceneDelegate.swift */,
-				AE8D41AC233714F000F189AD /* LandmarkDetail.swift */,
-				AE8D41D6233723DB00F189AD /* LandmarkRow.swift */,
-				AE96DA9F2337E7ED00FE5622 /* TeamList.swift */,
-				AE8D41CA2337198B00F189AD /* MapView.swift */,
-				AE8D41CC23371E5200F189AD /* CircleImage.swift */,
+				AEB8AA5A23C0E951009A21E9 /* View */,
 				AE8D41AE233714F100F189AD /* Assets.xcassets */,
 				AE8D41CE2337200C00F189AD /* Model */,
 				AE8D41B3233714F100F189AD /* LaunchScreen.storyboard */,
@@ -139,6 +148,7 @@
 			children = (
 				AE8D41D42337238C00F189AD /* Data.swift */,
 				AE8D41CF2337201F00F189AD /* Team.swift */,
+				AEB8AA5823C0DFD4009A21E9 /* Talk.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -153,6 +163,36 @@
 			path = Resouce;
 			sourceTree = "<group>";
 		};
+		AEB8AA5A23C0E951009A21E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE8D41D6233723DB00F189AD /* LandmarkRow.swift */,
+				AE96DA9F2337E7ED00FE5622 /* TeamList.swift */,
+				AEB8AA5B23C0E9A4009A21E9 /* TeamView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B47F32F9A61BE0223E325F7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB32E5E782A3A08718ACA067 /* Pods_footballSwiftUI.framework */,
+				BF6FBB2CE6A689766A026E3A /* Pods_footballSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B65F8217361DAF3C81417F72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A92FF02C829B12FD99FECB8 /* Pods-footballSwiftUI.debug.xcconfig */,
+				872123146F42128495E21160 /* Pods-footballSwiftUI.release.xcconfig */,
+				1777101B8C77ABE9C3E9635E /* Pods-footballSwiftUITests.debug.xcconfig */,
+				685B4B99EE07AAB381C3B8DD /* Pods-footballSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE8D41C4233714F100F189AD /* Build configuration list for PBXNativeTarget "footballSwiftUI" */;
 			buildPhases = (
+				7C359AF6AEF22193A4D7F93F /* [CP] Check Pods Manifest.lock */,
 				AE8D419E233714F000F189AD /* Sources */,
 				AE8D419F233714F000F189AD /* Frameworks */,
 				AE8D41A0233714F000F189AD /* Resources */,
+				5794EF118B383DB5D52428E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE8D41C7233714F100F189AD /* Build configuration list for PBXNativeTarget "footballSwiftUITests" */;
 			buildPhases = (
+				56C2289F867619AEA725E53D /* [CP] Check Pods Manifest.lock */,
 				AE8D41B7233714F100F189AD /* Sources */,
 				AE8D41B8233714F100F189AD /* Frameworks */,
 				AE8D41B9233714F100F189AD /* Resources */,
@@ -240,6 +283,7 @@
 				AE96DAA22338943A00FE5622 /* Liverpool.jpg in Resources */,
 				AE8D41AF233714F100F189AD /* Assets.xcassets in Resources */,
 				AE96DAA62338CE5E00FE5622 /* Arsenal.jpg in Resources */,
+				AEB8AA5723C0D614009A21E9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,18 +296,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56C2289F867619AEA725E53D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-footballSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5794EF118B383DB5D52428E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-footballSwiftUI/Pods-footballSwiftUI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-footballSwiftUI/Pods-footballSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C359AF6AEF22193A4D7F93F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-footballSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE8D419E233714F000F189AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB8AA5C23C0E9A4009A21E9 /* TeamView.swift in Sources */,
 				AE8D41D02337201F00F189AD /* Team.swift in Sources */,
+				AEB8AA5923C0DFD4009A21E9 /* Talk.swift in Sources */,
 				AE8D41AB233714F000F189AD /* footballSwiftUI.xcdatamodeld in Sources */,
 				AE8D41A6233714F000F189AD /* AppDelegate.swift in Sources */,
-				AE8D41CB2337198B00F189AD /* MapView.swift in Sources */,
-				AE8D41AD233714F000F189AD /* LandmarkDetail.swift in Sources */,
 				AE8D41A8233714F000F189AD /* SceneDelegate.swift in Sources */,
-				AE8D41CD23371E5200F189AD /* CircleImage.swift in Sources */,
 				AE8D41D52337238C00F189AD /* Data.swift in Sources */,
 				AE8D41D7233723DB00F189AD /* LandmarkRow.swift in Sources */,
 				AE96DAA02337E7ED00FE5622 /* TeamList.swift in Sources */,
@@ -416,11 +542,13 @@
 		};
 		AE8D41C5233714F100F189AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A92FF02C829B12FD99FECB8 /* Pods-footballSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"footballSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = FQU8548K3T;
+				DEVELOPMENT_TEAM = 4YZQY4C47E;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = footballSwiftUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -429,6 +557,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.entaku.footballSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -436,11 +565,13 @@
 		};
 		AE8D41C6233714F100F189AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872123146F42128495E21160 /* Pods-footballSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"footballSwiftUI/Preview Content\"";
-				DEVELOPMENT_TEAM = FQU8548K3T;
+				DEVELOPMENT_TEAM = 4YZQY4C47E;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = footballSwiftUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,6 +580,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.entaku.footballSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,6 +588,7 @@
 		};
 		AE8D41C8233714F100F189AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1777101B8C77ABE9C3E9635E /* Pods-footballSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,6 +611,7 @@
 		};
 		AE8D41C9233714F100F189AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685B4B99EE07AAB381C3B8DD /* Pods-footballSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
