@@ -9,7 +9,7 @@ target 'footballSwiftUI' do
   pod 'Firebase/Auth'
   pod 'Firebase/Analytics'
   pod 'Ballcap', :git => 'https://github.com/1amageek/Ballcap-iOS.git', :tag => '0.10.16'
-  
+  pod 'KeyboardObserving'
   target 'footballSwiftUITests' do
     inherit! :search_paths
     # Pods for testing

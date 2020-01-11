@@ -25,6 +25,7 @@
 		AEB8AA5723C0D614009A21E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEB8AA5623C0D614009A21E9 /* GoogleService-Info.plist */; };
 		AEB8AA5923C0DFD4009A21E9 /* Talk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB8AA5823C0DFD4009A21E9 /* Talk.swift */; };
 		AEB8AA5C23C0E9A4009A21E9 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB8AA5B23C0E9A4009A21E9 /* TeamView.swift */; };
+		AEED194F23C9B478007B5283 /* AddTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED194E23C9B478007B5283 /* AddTalk.swift */; };
 		F325FE0EA91F3A518F255E2A /* Pods_footballSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB32E5E782A3A08718ACA067 /* Pods_footballSwiftUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		AEB8AA5623C0D614009A21E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AEB8AA5823C0DFD4009A21E9 /* Talk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Talk.swift; sourceTree = "<group>"; };
 		AEB8AA5B23C0E9A4009A21E9 /* TeamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		AEED194E23C9B478007B5283 /* AddTalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTalk.swift; sourceTree = "<group>"; };
 		BF6FBB2CE6A689766A026E3A /* Pods_footballSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_footballSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB32E5E782A3A08718ACA067 /* Pods_footballSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_footballSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -169,6 +171,7 @@
 				AE8D41D6233723DB00F189AD /* LandmarkRow.swift */,
 				AE96DA9F2337E7ED00FE5622 /* TeamList.swift */,
 				AEB8AA5B23C0E9A4009A21E9 /* TeamView.swift */,
+				AEED194E23C9B478007B5283 /* AddTalk.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/KeyboardObserving/KeyboardObserving.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
@@ -344,6 +348,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeyboardObserving.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
@@ -389,6 +394,7 @@
 				AEB8AA5923C0DFD4009A21E9 /* Talk.swift in Sources */,
 				AE8D41AB233714F000F189AD /* footballSwiftUI.xcdatamodeld in Sources */,
 				AE8D41A6233714F000F189AD /* AppDelegate.swift in Sources */,
+				AEED194F23C9B478007B5283 /* AddTalk.swift in Sources */,
 				AE8D41A8233714F000F189AD /* SceneDelegate.swift in Sources */,
 				AE8D41D52337238C00F189AD /* Data.swift in Sources */,
 				AE8D41D7233723DB00F189AD /* LandmarkRow.swift in Sources */,

@@ -110,6 +110,7 @@ PODS:
     - nanopb (~> 0.3)
   - gRPC-Core/Interface (1.21.0)
   - GTMSessionFetcher/Core (1.2.2)
+  - KeyboardObserving (0.2.1)
   - leveldb-library (1.20)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
@@ -122,6 +123,7 @@ DEPENDENCIES:
   - Ballcap (from `https://github.com/1amageek/Ballcap-iOS.git`, tag `0.10.16`)
   - Firebase/Analytics
   - Firebase/Auth
+  - KeyboardObserving
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -139,6 +141,7 @@ SPEC REPOS:
     - "gRPC-C++"
     - gRPC-Core
     - GTMSessionFetcher
+    - KeyboardObserving
     - leveldb-library
     - nanopb
     - Protobuf
@@ -169,10 +172,11 @@ SPEC CHECKSUMS:
   "gRPC-C++": 9dfe7b44821e7b3e44aacad2af29d2c21f7cde83
   gRPC-Core: c9aef9a261a1247e881b18059b84d597293c9947
   GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  KeyboardObserving: d80b12a71a9ca1111372281eab70d454f9871e06
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: 3f617b9a6e73605565086864c9bc26b2bf2dd5a3
 
-PODFILE CHECKSUM: 78975e4b7b710bbe8411a26a9c5e02f0a02e6f8d
+PODFILE CHECKSUM: f8924473946a55f8526ce298533e25eca2c7dcf7
 
 COCOAPODS: 1.5.3

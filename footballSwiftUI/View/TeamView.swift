@@ -18,14 +18,25 @@ struct TeamView: View {
 
     let team: Team
 
+    @State private var showSheet = false
+
     var body: some View {
         List {
             ForEach(talks) { talk in
                 VStack {
                     Text(talk[\.text])
                 }
-            }
+            }.onDelete(perform: delete)
         }.navigationBarTitle(Text(team.name))
+        .navigationBarItems(trailing:
+            Button(action: {
+                self.showSheet.toggle()
+            }, label: {
+                Text("AddTalk")
+            }).sheet(isPresented: self.$showSheet, content: {
+                AddTalk()
+            }).padding()
+        )
         .onAppear(perform: {
             self.dataSource
                 .retrieve(from: { (_, snapshot, done) in
@@ -38,6 +49,12 @@ struct TeamView: View {
                 })
                 .listen()
         })
+    }
+
+    func delete(at offsets: IndexSet) {
+        let talk:Talk = talks[offsets.count]
+        talks.remove(atOffsets: offsets)
+        talk.delete()
     }
 }
 
