@@ -14,9 +14,9 @@ struct LandmarkRow: View {
 
     var body: some View {
         HStack {
-            team.image
-                .resizable()
-                .frame(width: 50, height: 50)
+//            team.image
+//                .resizable()
+//                .frame(width: 50, height: 50)
 
             Text(team.name)
 
@@ -25,15 +25,15 @@ struct LandmarkRow: View {
     }
 }
 
-struct LandmarkRow_Previews: PreviewProvider {
-    static var previews: some View {
-
-        Group {
-            LandmarkRow(team: sampleTeams[0])
-            LandmarkRow(team: sampleTeams[1])
-        }
-        .previewLayout(.fixed(width: 300, height: 70))
-        
-    }
-}
+//struct LandmarkRow_Previews: PreviewProvider {
+//    static var previews: some View {
+//
+//        Group {
+//            LandmarkRow(team: sampleTeams[0])
+//            LandmarkRow(team: sampleTeams[1])
+//        }
+//        .previewLayout(.fixed(width: 300, height: 70))
+//
+//    }
+//}
 

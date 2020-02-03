@@ -10,9 +10,13 @@
 import SwiftUI
 
 struct TeamList: View {
+    @ObservedObject var viewModel = LeagueViewModel()
+
+
+
     var body: some View {
         NavigationView {
-            List(sampleTeams) { team in
+            List(viewModel.teams) { team in
                 NavigationLink(destination: TeamView(team: team)) {
                     LandmarkRow(team: team)
                 }

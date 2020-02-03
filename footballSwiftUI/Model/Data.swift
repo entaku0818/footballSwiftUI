@@ -8,7 +8,6 @@ Helpers for loading images and data.
 import UIKit
 import SwiftUI
 
-let teamData: [Team] = load("landmarkData.json")
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data

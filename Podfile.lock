@@ -1,4 +1,5 @@
 PODS:
+  - APIKit (5.1.0)
   - Ballcap (0.10.16):
     - Firebase
     - Firebase/Firestore
@@ -118,15 +119,19 @@ PODS:
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - Protobuf (3.8.0)
+  - RxSwift (5.0.1)
 
 DEPENDENCIES:
+  - APIKit (~> 5.0)
   - Ballcap (from `https://github.com/1amageek/Ballcap-iOS.git`, tag `0.10.16`)
   - Firebase/Analytics
   - Firebase/Auth
   - KeyboardObserving
+  - RxSwift (~> 5.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
+    - APIKit
     - BoringSSL-GRPC
     - Firebase
     - FirebaseAnalytics
@@ -145,6 +150,8 @@ SPEC REPOS:
     - leveldb-library
     - nanopb
     - Protobuf
+  trunk:
+    - RxSwift
 
 EXTERNAL SOURCES:
   Ballcap:
@@ -157,6 +164,7 @@ CHECKOUT OPTIONS:
     :tag: 0.10.16
 
 SPEC CHECKSUMS:
+  APIKit: 9e1a4069608bf0ae5238811e6cfc26928ad4d01e
   Ballcap: c82eb6b6dec66a533855ad17574b0223b61240af
   BoringSSL-GRPC: db8764df3204ccea016e1c8dd15d9a9ad63ff318
   Firebase: 8432d732974498afd5987e9001a05f90f1a3d625
@@ -176,7 +184,8 @@ SPEC CHECKSUMS:
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: 3f617b9a6e73605565086864c9bc26b2bf2dd5a3
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
 
-PODFILE CHECKSUM: f8924473946a55f8526ce298533e25eca2c7dcf7
+PODFILE CHECKSUM: aaa9d3468e8bc6bdd4441778938c46465e51c74f
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
