@@ -1,5 +1,5 @@
 //
-//  Landmark.swift
+//  Team.swift
 //  footballSwiftUI
 //
 //  Created by 遠藤拓弥 on 2019/09/22.

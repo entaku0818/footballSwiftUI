@@ -8,54 +8,30 @@
 
 
 import SwiftUI
-import Ballcap
 
 struct TeamView: View {
 
-    @State var talks: [Talk] = []
 
-    let dataSource: DataSource<Talk> = Talk.order(by: "updatedAt").limit(to: 30).dataSource()
 
     let team: Team
+    @ObservedObject var viewModel: TeamsViewModel
 
-    @State private var showSheet = false
+    init(team:Team) {
+        self.team = team
+        viewModel = TeamsViewModel.init(team: team)
+    }
+
 
     var body: some View {
-        List {
-            ForEach(talks) { talk in
-                VStack {
-                    Text(talk[\.text])
-                }
-            }.onDelete(perform: delete)
-        }.navigationBarTitle(Text(team.name))
-        .navigationBarItems(trailing:
-            Button(action: {
-                self.showSheet.toggle()
-            }, label: {
-                Text("AddTalk")
-            }).sheet(isPresented: self.$showSheet, content: {
-                AddTalk()
-            }).padding()
-        )
-        .onAppear(perform: {
-            self.dataSource
-                .retrieve(from: { (_, snapshot, done) in
-                    let task: Talk = Talk(snapshot: snapshot)!
-                    done(task)
-                })
-
-                .onChanged({ (_, snapshot) in
-                    self.talks = snapshot.after
-                })
-                .listen()
-        })
+        List(viewModel.matchs) { match in
+            MatcheRow(fixture: match)
+        }
+        .navigationBarTitle(Text(team.name))
+        .onAppear {
+            self.viewModel.fetch()
+        }
     }
 
-    func delete(at offsets: IndexSet) {
-        let talk:Talk = talks[offsets.count]
-        talks.remove(atOffsets: offsets)
-        talk.delete()
-    }
 }
 
 //struct TeamView_Previews: PreviewProvider {

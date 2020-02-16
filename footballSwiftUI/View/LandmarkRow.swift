@@ -14,9 +14,7 @@ struct LandmarkRow: View {
 
     var body: some View {
         HStack {
-//            team.image
-//                .resizable()
-//                .frame(width: 50, height: 50)
+            URLImageView(url: team.logo).frame(width: 50, height: 50)
 
             Text(team.name)
 

@@ -26,6 +26,12 @@
 		AEB8AA5923C0DFD4009A21E9 /* Talk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB8AA5823C0DFD4009A21E9 /* Talk.swift */; };
 		AEB8AA5C23C0E9A4009A21E9 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB8AA5B23C0E9A4009A21E9 /* TeamView.swift */; };
 		AEC92D1323E6F71400FE5641 /* LeagueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC92D1223E6F71400FE5641 /* LeagueViewModel.swift */; };
+		AEC92D1F23F0382800FE5641 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC92D1E23F0382800FE5641 /* ImageDownloader.swift */; };
+		AEC92D2123F0384F00FE5641 /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC92D2023F0384F00FE5641 /* URLImageView.swift */; };
+		AEC92D2323F03D5D00FE5641 /* LastMatchesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC92D2223F03D5D00FE5641 /* LastMatchesRequest.swift */; };
+		AEC92D2523F03E3000FE5641 /* LastMatchesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC92D2423F03E3000FE5641 /* LastMatchesResponse.swift */; };
+		AEC92D2723F03F9300FE5641 /* TeamsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC92D2623F03F9300FE5641 /* TeamsViewModel.swift */; };
+		AEC92D2923F0511900FE5641 /* MatcheRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC92D2823F0511900FE5641 /* MatcheRow.swift */; };
 		AEED194F23C9B478007B5283 /* AddTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED194E23C9B478007B5283 /* AddTalk.swift */; };
 		AEFEA0BF23CB3B1200F2856D /* TeamResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEA0BC23CB3B1200F2856D /* TeamResponse.swift */; };
 		AEFEA0C023CB3B1200F2856D /* TeamRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEA0BD23CB3B1200F2856D /* TeamRequest.swift */; };
@@ -71,6 +77,12 @@
 		AEB8AA5823C0DFD4009A21E9 /* Talk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Talk.swift; sourceTree = "<group>"; };
 		AEB8AA5B23C0E9A4009A21E9 /* TeamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
 		AEC92D1223E6F71400FE5641 /* LeagueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueViewModel.swift; sourceTree = "<group>"; };
+		AEC92D1E23F0382800FE5641 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		AEC92D2023F0384F00FE5641 /* URLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
+		AEC92D2223F03D5D00FE5641 /* LastMatchesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastMatchesRequest.swift; sourceTree = "<group>"; };
+		AEC92D2423F03E3000FE5641 /* LastMatchesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastMatchesResponse.swift; sourceTree = "<group>"; };
+		AEC92D2623F03F9300FE5641 /* TeamsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsViewModel.swift; sourceTree = "<group>"; };
+		AEC92D2823F0511900FE5641 /* MatcheRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatcheRow.swift; sourceTree = "<group>"; };
 		AEED194E23C9B478007B5283 /* AddTalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTalk.swift; sourceTree = "<group>"; };
 		AEFEA0BC23CB3B1200F2856D /* TeamResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamResponse.swift; sourceTree = "<group>"; };
 		AEFEA0BD23CB3B1200F2856D /* TeamRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamRequest.swift; sourceTree = "<group>"; };
@@ -123,6 +135,7 @@
 		AE8D41A4233714F000F189AD /* footballSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				AEC92D1D23F0381100FE5641 /* Util */,
 				AEB8AA5623C0D614009A21E9 /* GoogleService-Info.plist */,
 				AE8D41A5233714F000F189AD /* AppDelegate.swift */,
 				AE8D41A7233714F000F189AD /* SceneDelegate.swift */,
@@ -184,8 +197,19 @@
 				AEB8AA5B23C0E9A4009A21E9 /* TeamView.swift */,
 				AEED194E23C9B478007B5283 /* AddTalk.swift */,
 				AEC92D1223E6F71400FE5641 /* LeagueViewModel.swift */,
+				AEC92D2623F03F9300FE5641 /* TeamsViewModel.swift */,
+				AEC92D2023F0384F00FE5641 /* URLImageView.swift */,
+				AEC92D2823F0511900FE5641 /* MatcheRow.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		AEC92D1D23F0381100FE5641 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AEC92D1E23F0382800FE5641 /* ImageDownloader.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		AEFEA0BB23CB3B1200F2856D /* API */ = {
@@ -193,6 +217,8 @@
 			children = (
 				AEFEA0BC23CB3B1200F2856D /* TeamResponse.swift */,
 				AEFEA0BD23CB3B1200F2856D /* TeamRequest.swift */,
+				AEC92D2223F03D5D00FE5641 /* LastMatchesRequest.swift */,
+				AEC92D2423F03E3000FE5641 /* LastMatchesResponse.swift */,
 				AEFEA0BE23CB3B1200F2856D /* APIRequest.swift */,
 				AEFEA0C223CB4D4A00F2856D /* CombineApiClient.swift */,
 			);
@@ -393,13 +419,19 @@
 			files = (
 				AEB8AA5C23C0E9A4009A21E9 /* TeamView.swift in Sources */,
 				AE8D41D02337201F00F189AD /* Team.swift in Sources */,
+				AEC92D1F23F0382800FE5641 /* ImageDownloader.swift in Sources */,
 				AEFEA0C123CB3B1200F2856D /* APIRequest.swift in Sources */,
 				AEFEA0BF23CB3B1200F2856D /* TeamResponse.swift in Sources */,
+				AEC92D2923F0511900FE5641 /* MatcheRow.swift in Sources */,
 				AEB8AA5923C0DFD4009A21E9 /* Talk.swift in Sources */,
 				AEC92D1323E6F71400FE5641 /* LeagueViewModel.swift in Sources */,
+				AEC92D2323F03D5D00FE5641 /* LastMatchesRequest.swift in Sources */,
 				AEFEA0C023CB3B1200F2856D /* TeamRequest.swift in Sources */,
+				AEC92D2523F03E3000FE5641 /* LastMatchesResponse.swift in Sources */,
+				AEC92D2123F0384F00FE5641 /* URLImageView.swift in Sources */,
 				AE8D41AB233714F000F189AD /* footballSwiftUI.xcdatamodeld in Sources */,
 				AE8D41A6233714F000F189AD /* AppDelegate.swift in Sources */,
+				AEC92D2723F03F9300FE5641 /* TeamsViewModel.swift in Sources */,
 				AEED194F23C9B478007B5283 /* AddTalk.swift in Sources */,
 				AE8D41A8233714F000F189AD /* SceneDelegate.swift in Sources */,
 				AE8D41D52337238C00F189AD /* Data.swift in Sources */,
